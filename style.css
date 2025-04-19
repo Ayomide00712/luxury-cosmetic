@@ -138,7 +138,7 @@
 .content p {
   font-size: 1.4rem;
   margin-bottom: 10px;
-  /* overflow-wrap: break-word; */
+ 
   word-spacing: 2px;
 }
 .content button {
@@ -146,6 +146,9 @@
   border-radius: 8px;
   cursor: pointer;
   padding: 5px 15px;
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .section2 {
   display: flex;
@@ -694,6 +697,10 @@ footer {
     margin: auto;
     gap: 0.5rem;
     bottom: 3em;
+  }
+  .content button{
+    font-size: 1rem;
+    font-weight: 400;
   }
 
   .login-button,
